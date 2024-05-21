@@ -47,4 +47,4 @@ To test our object detection program, run the following in the correct directory
 python test.py
 ```
 
-You can press <strong?>q</strong> to quit the program.
+You can press <strong>q</strong> to quit the program.
