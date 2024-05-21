@@ -40,15 +40,11 @@ pip install ultralytics
 <br>
 
 
-## How To Use
-To test Part 1 of this project, run these commands <strong>in order</strong>.
+## Testing
+To test our object detection program, run the following in the correct directory:
 
-1) On server VM:
 ```bash
-make server
+python test.py
 ```
 
-2) On client VM:
-```bash
-make client
-```
+You can press <strong?>q</strong> to quit the program.
