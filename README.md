@@ -1,6 +1,9 @@
 # Facial Recognition for User Authentication
 Authors: Andrew Catoiu, RJ Livelo
 
+<br>
+<br>
+
 ## About This Project
 <strong>Goal</strong><br>
 In this project, we gathered images of faces. Some were of our own, and the rest were of random faces on the internet. Our goal is to authenticate device users my detecting their face on the computer webcam using Roboflow and OpenCV.<br>
@@ -20,6 +23,8 @@ Follow instructions and run all the commands in the colab notebook to download a
 
 <strong>OpenCV</strong><br>
 Copy the path to the custom model file that you downloaded. Open test.py. To initialize our custom model to our program, pass the path of the file as a YOLO function argument.
+
+<br>
 <br>
 
 ## Necessary dependencies/libraries
@@ -38,7 +43,6 @@ Ultralytics:
 pip install ultralytics
 ```
 <br>
-
 
 ## Testing
 To test our object detection program, run the following in the correct directory:
