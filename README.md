@@ -52,3 +52,6 @@ python test.py
 ```
 
 You can press <strong>q</strong> to quit the program.
+
+## Results
+Your final output will be a computer webcam detecting desired objects from the model. In this case, we are detecting faces. If Andrew is present in front of the webcam, there will be a green box surrounding his face. He will have to remain still for a fixed amount of time to verify that it is indeed the correct face (or authorized, valid, etc). The class name label associated with any trained images of Andrew will be displayed as well. If it is another user (not Andrew, or even RJ) then the user's face will be surrounded by a red box and will be "Unauthorized".
