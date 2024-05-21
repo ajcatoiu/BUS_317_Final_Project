@@ -3,17 +3,10 @@ import cv2
 from ultralytics import YOLO
 import time
 
-
-# Load Model Details
 model = YOLO("C:\\Users\\andre\\Downloads\\best.pt")
-
 names = model.names
-
-# Open a connection to the webcam
 cap = cv2.VideoCapture(0)
 
-
-# Set inital variables
 verify = 0
 threshold_high = 0.9
 threshold_low = 0.5
@@ -22,18 +15,15 @@ limit = 100
 status = 0
 Locked = True
 
-# Setting up variables for FPS
 prev_frame = 0
 new_frame = 0
 
-# Create a display window (720p)
 window_name = 'Webcam'
 window_width = 1280
 window_height = 720
 cv2.namedWindow(window_name, cv2.WINDOW_NORMAL) 
 cv2.resizeWindow(window_name, 1280, 720)
 
-# Creating inference on each frame
 while cap.isOpened():
     ret, frame = cap.read()    #Reading in one frame at a time
     if not ret:
@@ -96,6 +86,3 @@ while cap.isOpened():
 
 cap.release()
 cv2.destroyAllWindows()
-
-
-#SMART SURVEILANCE
