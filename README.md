@@ -4,8 +4,8 @@
 
 
 # Required installations
-pip install opencv-python
-pip install roboflow
-pip install ultralytics
+pip install opencv-python<br>
+pip install roboflow<br>
+pip install ultralytics<br>
 
 # How to run
