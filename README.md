@@ -3,10 +3,13 @@ Authors: Andrew Catoiu, RJ Livelo
 
 ## About This Project
 <strong>Goal</strong><br>
-In this project, we gathered images of faces. Some were of our own, and the rest were of random faces on the internet. Our goal is to authenticate device users my detecting their face on the computer webcam.<br><br>
+In this project, we gathered images of faces. Some were of our own, and the rest were of random faces on the internet. Our goal is to authenticate device users my detecting their face on the computer webcam.<br>
 
 <strong>Process</strong><br>
-xyz use a model trained on Roboflow, using the images as our dataset, to detect 
+We trained a Roboflow model using various images as our dataset. After training, we obtained the deployment information (API key, version number, and project name) so that we can pass them as function arguments into the online YOLOv8 colab notebook:<br>
+https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/train-yolov8-object-detection-on-custom-dataset.ipynb#scrollTo=BSd93ZJzZZKt
+<br>
+
 
 ## Necessary dependencies/libraries
 Before compiling, you must clone the cJSON parser from GitHub using this command:
