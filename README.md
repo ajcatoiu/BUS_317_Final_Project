@@ -16,7 +16,8 @@ Train the model and wait 10-15 minutes for the email confirmation. After receivi
 After training, we obtained the deployment information (API key, version number, and project name) so that we can pass them as function arguments into the online YOLOv8 colab notebook:<br>
 https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/train-yolov8-object-detection-on-custom-dataset.ipynb#scrollTo=BSd93ZJzZZKt
 <br><br>
-Run all the commands in the colab notebook to download a trained model of the images. You can run
+Follow instructions and run all the commands in the colab notebook to download a trained model of the images. When you get to "Step 5: Exporting dataset", make sure to pass the deployment information you obtained into the functions into the kernel. After running all commands, locate the custom model file in the {HOME}/runs/detect/train/weights path within the colab file manager. The model file name should be weights/best.pt, you can now download that file to your local machine.
+<br>
 
 
 ## Necessary dependencies/libraries
